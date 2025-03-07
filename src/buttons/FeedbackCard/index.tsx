@@ -8,17 +8,17 @@ interface FeedbackProps {
     profileImage: string;
 }
 
-const FeedbackCard = ({ width, height, text, profileName, profileImage}: FeedbackProps) => {
-    return(
+const FeedbackCard = ({ width, height, text, profileName, profileImage }: FeedbackProps) => {
+    return (
         <>
-        <ContainerFeedbackCard style={{ width, height }}>
-            <img src={star} alt="feedbackstar" />
-            <p>{text}</p>
-            <Profile>
-                <img src={profileImage} alt="#" />
-                <p>{profileName}</p>
-            </Profile>
-        </ContainerFeedbackCard>
+            <ContainerFeedbackCard style={{ width, height }}>
+                <img src={star} alt="feedbackstar" />
+                <p>{text}</p>
+                <Profile>
+                    <img src={profileImage} alt="#" />
+                    <p>{profileName}</p>
+                </Profile>
+            </ContainerFeedbackCard>
         </>
     )
 }

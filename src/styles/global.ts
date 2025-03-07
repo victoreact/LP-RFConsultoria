@@ -12,5 +12,6 @@ export const GlobalStyles = createGlobalStyle`
     height: 100%;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    background-color:  #F4F4F2;
   }
 `;

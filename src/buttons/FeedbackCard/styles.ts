@@ -4,7 +4,9 @@ export const ContainerFeedbackCard = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: flex-start;
+padding: 32px;
+gap: 15px;
 
 border-radius: 10px;
 border: 1px solid #734490;
@@ -26,6 +28,10 @@ p{
 `;
 
 export const Profile = styled.div`
+display: flex;
+gap: 30px;
+align-items: center;
+justify-content: center;
 img{
 
 }

@@ -26,6 +26,7 @@ export const Popup = styled.div`
     top: 130%;
     left: 0%;
     z-index: 10;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
 
     align-items: center;
     width: 450px;

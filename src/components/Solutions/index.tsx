@@ -30,17 +30,17 @@ const Solutions = () => {
                 </LineCards>    
                 <LineCards>
                     <CardSolutions 
-                    title="Prazos Estourados"
+                    title="Custos altos "
                     titleColor="#F4F4F2"
-                    text="Prazos estourados – Projetos atrasados devido à falta de equipe qualificada e processos ineficientes."
+                    text="Custos altos – Gastos elevados com contratação, treinamento e encargos trabalhistas."
                     bgColor="#DC7344"
                     />
 
                     <img src={arrowvector} alt="passar para o lado" />
                     <CardSolutions 
-                    title="Entrega rápida e de qualidade"
+                    title="Flexibilidade financeira "
                     titleColor="#3C1A51"
-                    text="Time completo pelo custo de 1 – Profissionais experientes a um custo 60% menor que CLT."
+                    text="Flexibilidade total – Ajuste o tamanho do time conforme a demanda do projeto. "
                     bgColor="#0AD9CA"
                     
                     
@@ -48,17 +48,17 @@ const Solutions = () => {
                 </LineCards>    
                 <LineCards>
                     <CardSolutions 
-                    title="Prazos Estourados"
+                    title="Baixa eficiência "
                     titleColor="#F4F4F2"
-                    text="Prazos estourados – Projetos atrasados devido à falta de equipe qualificada e processos ineficientes."
+                    text="Baixa eficiência – Falta de metodologias ágeis e equipe desalinhada com os objetivos do negócio."
                     bgColor="#DC7344"
                     />
 
                     <img src={arrowvector} alt="passar para o lado" />
                     <CardSolutions 
-                    title="Entrega rápida e de qualidade"
+                    title="Produção Acelerada "
                     titleColor="#3C1A51"
-                    text="Time completo pelo custo de 1 – Profissionais experientes a um custo 60% menor que CLT."
+                    text="Foco em inovação – UX, BPM e Service Design otimizam a experiência e os processos."
                     bgColor="#0AD9CA"
                     
                     
