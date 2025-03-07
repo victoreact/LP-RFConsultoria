@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Solutions from "./components/Solutions"
 import { GlobalStyles } from "./styles/global"
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
     <GlobalStyles />
       <Header />
       <Hero />
+      <Solutions />
       
     </>
   )

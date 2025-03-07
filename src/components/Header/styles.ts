@@ -12,22 +12,7 @@ align-self: stretch;
 background-color: #F4F4F2;
 `; 
 
-export const LogoRf = styled.img`
-
-`;
-
-export const ButtonHeader = styled.div`
-
+export const RightDiv = styled.div`
 display: flex;
-justify-content: flex-end;
-align-items: center;
-gap: 40px;
-
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+gap: 20px;
 `;

@@ -9,7 +9,7 @@ justify-content: space-between;
 align-items: center;
 flex-shrink: 0;
 background: linear-gradient(180deg, #3C1A51 0%, #734490 100%);
-padding: 80px 220px;
+padding: 80px 300px;
 `;
 
 export const ContainerLeft = styled.div`
@@ -23,7 +23,9 @@ flex-shrink: 0;
 `;
 
 export const ContainerRight = styled.div`
+img{
 
+}
 `;
 
 export const TitleAndSubtitle = styled.div`
