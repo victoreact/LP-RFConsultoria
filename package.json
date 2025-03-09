@@ -2,7 +2,7 @@
   "name": "lp-rfconsultoria",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://victoreact.github.io/lp-rfconsultoria",
+  "homepage": "https://victoreact.github.io/LP-RFConsultoria",
   "type": "module",
   "scripts": {
     "dev": "vite",
