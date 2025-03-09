@@ -2,12 +2,13 @@ import { ContainerHeaderButton } from "./styles"
 
 interface HeaderProps{
     text: string;
+    onClick?: () => void;
 }
 
-const HeaderButtom = ({text}: HeaderProps) =>{
+const HeaderButtom = ({text, onClick}: HeaderProps) =>{
     return(
         <>
-        <ContainerHeaderButton>
+        <ContainerHeaderButton onClick={onClick}>
             <p>{text}</p>
         </ContainerHeaderButton>
         </>

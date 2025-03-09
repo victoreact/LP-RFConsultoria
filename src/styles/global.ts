@@ -14,4 +14,9 @@ export const GlobalStyles = createGlobalStyle`
     overflow-x: hidden;
     background-color:  #F4F4F2;
   }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
 `;

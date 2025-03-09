@@ -11,7 +11,9 @@ const CtaSection = () => {
                 <TextSection>
                     <h1>Vamos conversar?</h1>
                     <p>Entre em contato para um bate-papo sem compromisso! Vamos entender suas necessidades e encontrar a melhor solução para o seu negócio.</p>
-                    <BlueButtom text="Entre em contato"/>
+                    <a href="https://whatsss.link/MQCB4J" target="blank">
+                        <BlueButtom text="Entre em contato"/>
+                    </a>
                 </TextSection>
                 
             </ContainerSection>

@@ -15,7 +15,9 @@ const Hero = () => {
                     <p>Soluções personalizadas, tecnologia de ponta e um time de especialistas para impulsionar seu negócio.</p>
                     
                 </TitleAndSubtitle>
-                <BlueButtom text="Saiba mais"/>
+                <a href="https://whatsss.link/MQCB4J" target="blank">
+                    <BlueButtom text="Saiba mais"/>
+                </a>
             </ContainerLeft>
             <ContainerRight>
                 <img src={vectorhero} alt="Logo propaganda" />

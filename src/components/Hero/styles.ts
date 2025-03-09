@@ -5,11 +5,12 @@ export const HeroContainer = styled.div`
 display: flex;
 height: 566px;
 width: 100%;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
 flex-shrink: 0;
 background: linear-gradient(180deg, #3C1A51 0%, #734490 100%);
 padding: 80px 300px;
+gap: 100px;
 `;
 
 export const ContainerLeft = styled.div`

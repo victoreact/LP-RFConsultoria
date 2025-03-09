@@ -1,5 +1,9 @@
+import FloatingButtons from "./buttons/FloatingButtons"
 import CtaSection from "./components/CtaSection"
+import FaqSection from "./components/FaqSection"
 import Feedback from "./components/Feedback"
+import Footer from "./components/Footer"
+import FormsSection from "./components/FormsSection"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Solutions from "./components/Solutions"
@@ -17,7 +21,11 @@ const App = () => {
       <Feedback />
       <SucessCases />
       <CtaSection />
+      <FormsSection />
+      <FaqSection />
+      <Footer />
       
+      <FloatingButtons />
     </>
   )
 }

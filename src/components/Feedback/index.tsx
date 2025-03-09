@@ -3,7 +3,6 @@ import { CardContainerFeedback, FeedbackContainer } from "./styles"
 import eduardo from '../../assets/eduardogomes.png'
 import sofia from '../../assets/sofiamiranda.png'
 import jose from '../../assets/josebarros.png'
-
 const Feedback = () => {
     return (
         <>
