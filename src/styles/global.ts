@@ -5,6 +5,7 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
 
   html, body {
@@ -13,6 +14,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     background-color:  #F4F4F2;
+
   }
 
   a{
