@@ -2,28 +2,30 @@ import styled from "styled-components";
 
 export const ContainerSection = styled.div`
     display: flex;
-    padding: 100px 5%; /* Ajuste para 5% para responsividade */
+    padding: 100px 5%; 
     justify-content: center;
     align-items: center;
     gap: 80px;
     align-self: stretch;
     width: 100%;
-    height: auto; /* Ajuste a altura para auto */
+    height: auto; 
     
-    @media (max-width: 768px) {
-        flex-direction: column; /* Muda para coluna em telas menores */
-        padding: 50px 20px; /* Ajuste o padding */
-    }
+   
 `;
 
 export const ContainerConteudo = styled.div`
     display: flex;
-    flex-direction: column; /* Muda para coluna em telas menores */
-    width: 100%; /* Ajuste para 100% */
-    max-width: 1000px; /* Limite máximo */
-    height: auto; /* Ajuste a altura para auto */
+    width: 100%; 
+    max-width: 1000px; 
+    height: auto; 
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 768px) {
+        flex-direction: column; 
+        padding: 50px 20px; 
+        gap: 24px;
+    }
 `;
 
 export const TextSection = styled.div`
@@ -32,26 +34,26 @@ export const TextSection = styled.div`
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
-    width: 100%; /* Ajuste para 100% */
-    max-width: 350px; /* Limite máximo */
+    width: 100%; 
+    max-width: 350px; 
     
     h1 {
         color: #3C1A51;
         font-family: 'Red Hat Display', sans-serif;
-        font-size: 28px; /* Ajuste para tamanhos menores */
+        font-size: 28px; 
     }
     
     p {
         color: #3C1A51;
         font-family: 'Poppins', sans-serif;
-        font-size: 16px; /* Ajuste para tamanhos menores */
+        font-size: 16px; 
     }
 `;
 
 export const Container = styled.div`
     display: flex;
-    width: 100%; /* Ajuste para 100% */
-    max-width: 500px; /* Limite máximo */
+    width: 100%; 
+    max-width: 500px; 
     padding: 40px;
     flex-direction: column;
     justify-content: center;
@@ -63,8 +65,8 @@ export const Container = styled.div`
     box-shadow: 0px 0px 10.9px 0px rgba(208, 131, 255, 0.1);
     
     @media (max-width: 768px) {
-        width: 90%; /* Ajuste para 90% em telas menores */
-        padding: 20px; /* Reduz o padding */
+        width: 90%; 
+        padding: 20px; 
     }
 `;
 
@@ -72,7 +74,7 @@ export const Title = styled.h2`
     color: #dc7344;
     text-align: center;
     font-family: Poppins;
-    font-size: 28px; /* Ajuste para tamanhos menores */
+    font-size: 28px; 
 `;
 
 export const Form = styled.form`
@@ -84,7 +86,7 @@ export const Form = styled.form`
 
 export const FormGroup = styled.div`
     display: flex;
-    height: auto; /* Ajuste a altura para auto */
+    height: auto; 
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
@@ -93,14 +95,14 @@ export const FormGroup = styled.div`
 
 export const Label = styled.label`
     display: flex;
-    height: auto; /* Ajuste a altura para auto */
+    height: auto; 
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
     align-self: stretch;
     color: #3c1a51;
     font-family: Poppins;
-    font-size: 18px; /* Ajuste para tamanhos menores */
+    font-size: 18px; 
 `;
 
 export const Input = styled.input`
@@ -133,6 +135,6 @@ export const SubmitButton = styled.button`
     }
     
     @media (max-width: 768px) {
-        width: 100%; /* Ajuste para 100% em telas menores */
+        width: 100%; 
     }
 `;
