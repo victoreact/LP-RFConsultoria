@@ -10,20 +10,22 @@ export const ContainerSection = styled.div`
     width: 100%;
     height: auto; 
     
-    @media (max-width: 768px) {
-        flex-direction: column; 
-        padding: 50px 20px; 
-    }
+   
 `;
 
 export const ContainerConteudo = styled.div`
     display: flex;
-    flex-direction: column;
     width: 100%; 
     max-width: 1000px; 
     height: auto; 
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 768px) {
+        flex-direction: column; 
+        padding: 50px 20px; 
+        gap: 24px;
+    }
 `;
 
 export const TextSection = styled.div`
